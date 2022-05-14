@@ -1,0 +1,44 @@
+.letter__form {
+    display: flex;
+    & input::placeholder {
+        color: rgba(255, 255, 255, 0.6);
+        font-size: 16px;
+        line-height: 1.25;
+        letter-spacing: 0.03em;
+    }
+}
+.letter__modal-input {
+    width: 358px;
+    height: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    background-color: #2F303A;
+    outline: none;
+    font-weight: 400;
+    padding-left: 16px;
+    margin-right: 12px;
+    color: var(--primary-white-color);
+}
+.letter__btn {
+    border: none;
+    width: 200px;
+    height: 50px;
+    background: var(--accent-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: var(--primary-white-color);
+    display: flex;
+    padding: 10px 28px 10px 29px;
+}
+.letter__icon {
+    width: 24px;
+    height: 24px;
+    margin-left: 10px;  
+}

@@ -13,7 +13,6 @@
     transition: background-color var(--timing-anim);
     &:hover, &:focus {
         background-color: var(--accent-color);
-        outline: none;
     }
 }
 .person__icon {
@@ -23,7 +22,6 @@
     transition: fill var(--timing-anim);
     .person__link:hover &, .person__link:focus & {
         fill: var(--primary-white-color);
-        outline: none;
     }
 }
 .person__item + .person__item {

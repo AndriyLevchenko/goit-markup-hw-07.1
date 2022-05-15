@@ -17,7 +17,6 @@
     transition: background-color var(--timing-anim);
     &:hover, &:focus {
         background-color: var(--accent-color);
-        outline: none;
     }
 }
 .join__list {

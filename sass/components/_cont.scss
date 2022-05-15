@@ -25,6 +25,5 @@
     transition: color var(--timing-anim);
     &:hover, &:focus {
         color: var(--accent-color);
-        outline: none;
     }
 }

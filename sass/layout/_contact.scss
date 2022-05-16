@@ -1,24 +1,24 @@
-.contact {
+.contact__list {
     display: flex;
     align-items: center;
     margin-left: auto;
 }
-.contact__mail:not(:last-child) {
+.contact__item:not(:last-child) {
     margin-right: 30px;
 }
-.contact__icon-mail {
+.contact__icon {   
+    margin-right: 10px;
+    fill: currentColor;
+}
+.contact__icon--mail {
     width: 16px;
     height: 12px;
-    margin-right: 10px;
-    fill: currentColor;
 }
-.contact__icon-smartphone {
+.contact__icon--smartphone {
     width: 10px;
     height: 16px;
-    margin-right: 10px;
-    fill: currentColor;
 }
-.contact__link--color {
+.contact__link {
     display: flex;
     align-items: center;
     cursor: pointer;
@@ -26,6 +26,6 @@
 .contact__tel-link {
     margin-left: auto; 
 }
-.contact__link--color {
+.contact__link {
     color: var(--primary-text-color);
 }

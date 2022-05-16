@@ -1,4 +1,4 @@
-.clients {
+.clients__list {
     display: flex;
 }
 .clients__icon {
@@ -10,10 +10,13 @@
     cursor: pointer;
     fill: var(--icon-primary);
     transition: fill var(--timing-anim), border var(--timing-anim);
-    &:hover, &:focus {
+    .clients__link:hover &, :focus & {
         fill: var(--accent-color);
-        border: 1px solid var(--accent-color);    
+        border: 1px solid var(--accent-color);
     }
+}
+.clients__link {
+    display: block;
 }
 .clients__item:not(:last-child) {
     margin-right: 30px;

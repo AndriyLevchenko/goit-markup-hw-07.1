@@ -1,21 +1,31 @@
 @import "./utils/vars";
-@import "./components/header";
-@import "./components/nav";
-@import "./components/logo";
-@import "./components/contact";
-@import "./components/hero";
-@import "./components/benefits";
-@import "./components/about";
-@import "./components/team";
-@import "./components/person";
-@import "./components/clients";
-@import "./components/person";
-@import "./components/footer";
-@import "./components/cont";
-@import "./components/join";
-@import "./components/letter";
-@import "./components/choice";
-@import "./components/portfolio";
+@import "./utils/hidden";
+
+@import "./base/common";
+@import "./base/reset";
+
+@import "./components/conteiner";
+@import "./components/section";
+@import "./components/title-text";
+@import "./components/title-section";
+@import "./components/footer-join";
 @import "./components/backdrop";
 @import "./components/modal";
 @import "./components/form";
+@import "./components/logo";
+
+@import "./layout/about";
+@import "./layout/benefits";
+@import "./layout/portfolio-part";
+@import "./layout/clients";
+@import "./layout/main-nav";
+@import "./layout/cont";
+@import "./layout/contact";
+@import "./layout/footer";
+@import "./layout/header";
+@import "./layout/hero";
+@import "./layout/footer-soc";
+@import "./layout/person";
+@import "./layout/card-list";
+@import "./layout/team";
+

@@ -1,12 +1,12 @@
-.nav {
+.main-nav {
     display: flex;
     align-items: center;
     }
-.nav__item:not(:last-child) {
+.main-nav__item:not(:last-child) {
     margin-right: 50px;
 }
 .contact__link,
-.nav__link {
+.main-nav__link {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -20,7 +20,7 @@
         fill: currentColor;
     }
 }
-.nav__link--hover {
+.main-nav__link--hover {
     position: relative;
     &::after {
         content: "";
@@ -34,7 +34,10 @@
         bottom: 0;
     }
 }
-.nav__list {
+.main-nav__list {
     display: flex;
     align-items: center;
+}
+.current {
+    color: var(--accent-color);
 }

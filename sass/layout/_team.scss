@@ -1,7 +1,7 @@
-.team-section {
+.team {
     background-color: #F5F4FA;
 }
-.team {
+.team__list {
     display: flex;
 }
 .team__item {
@@ -12,7 +12,7 @@
 .team__img {
     display: block;
 }
-.team__people {
+.team__wraper {
     padding: 30px 32px;
 }
 .team__name {

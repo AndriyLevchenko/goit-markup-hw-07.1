@@ -587,6 +587,8 @@ button {
 
 .clients__link {
   display: block;
+  width: 172px;
+  height: 94px;
 }
 
 .clients__item:not(:last-child) {

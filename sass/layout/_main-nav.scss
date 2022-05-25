@@ -1,11 +1,13 @@
 .main-nav {
     display: flex;
     align-items: center;
-    }
+}
 .main-nav__item:not(:last-child) {
     margin-right: 50px;
 }
-.contact__link,
+.main-nav__item:last-child {
+    margin-right: 84px;
+}
 .main-nav__link {
     font-weight: 500;
     font-size: 14px;
@@ -37,6 +39,9 @@
 .main-nav__list {
     display: flex;
     align-items: center;
+    @media screen and (max-width: 767px) {
+        display: none;
+    }
 }
 .current {
     color: var(--accent-color);

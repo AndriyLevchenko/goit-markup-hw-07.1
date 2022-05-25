@@ -1,5 +1,9 @@
 .footer-soc {
-    margin-right: 93px;
+    margin-bottom: 60px;
+    @media screen and (min-width:1200px) {
+        margin-right: 93px;
+        margin-bottom: 0px;
+    }
 }
 .footer-soc__icon {
     width: 20px;
@@ -20,7 +24,10 @@
     }
 }
 .footer-soc__list {
-    display: flex;
+    display: inline-flex;
+    @media screen and (min-width:1200px) {
+        display: flex;
+    }
 }
 .footer-soc__item + .footer-soc__item {
     margin-left: 10px;
@@ -28,4 +35,7 @@
 .footer-soc__title, .footer-join__title {
     color: var(--primary-white-color);
     margin-bottom: 20px;
+    @media screen and (max-width:1199px) {
+        text-align: center;
+    }
 }
